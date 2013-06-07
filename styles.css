@@ -67,19 +67,40 @@ nav a:hover {
     max-width: 450px;
     margin: 0 auto;
 }
-@media all and (max-width: 61.25em) {
-    nav {
-        box-shadow: none;
-    }
-}
 @media all and (max-width: 600px) {
     header {
         font-size: 80%;
     }
+    .moodimage img {
+        display: none;
+    }
     .moodimage .bannertext {
-        width: 100%;
+        position: relative;
+        background-color: rgba(225,112,75, 1);
+        padding: 1em 5%;
+        width: 90%;
         margin: 0;
         left: 0;
+        max-width: 600px;
+    }
+    nav ul {
+        padding: 0;
+    }
+    nav ul li {
+        display: block;
+        padding: 0;
+        border-bottom: 1px dashed #666;
+    }
+    nav ul li:last-child {
+        border-bottom: 0;
+    }
+    nav a {
+        padding: 1em;
+        display: block;
+    }
+    nav a:hover {
+        text-decoration: none;
+        padding-right: 1.2em;
     }
 }
 @media all and (max-width: 460px) {
