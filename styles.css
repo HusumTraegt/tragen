@@ -91,12 +91,13 @@ nav a:hover {
 }
 .maincontent {
     width: 90%;
-    max-width: 898px;
+    max-width: 900px;
     margin: 0 auto;
     text-align: left;
-    border: 1px solid #333;
     border-top: 0;
     padding: 20px 50px;
+    background-color: rgba(220, 180, 90, 0.3);
+    min-height: 400px;
 }
 @media all and (max-width: 1000px) {
     .maincontent {
